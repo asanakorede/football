@@ -1,6 +1,11 @@
 title{
     color: blue;
 }
+
+h1{
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
 p{
     color: blueviolet
 }
@@ -11,4 +16,6 @@ h1{
 
 em{
     color: aquamarine;
+    font-size: large
 }
+
