@@ -22,9 +22,10 @@ Welcome to my project! This page gives an overview and indepth of the beautiful 
 >## License
 * MIT
 
-Copyright (c) 2022 Asana Korede
+  Asana Korede, Arowolo Haleem
 
 >## Contact information
+
 * Phone: 09138775440
 * Email: asanakorededaniel@gmail.com
 

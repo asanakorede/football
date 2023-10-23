@@ -1,21 +1,84 @@
-title{
-    color: blue;
-}
-
-h1{
-    margin: 10px 10px;
-    padding: 10px 10px;
-}
-p{
-    color: blueviolet
-}
-h1{
-    text-align: center;
-}
+ @import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 
-em{
-    color: aquamarine;
-    font-size: large
-}
 
+ title {
+     color: blue;
+ }
+
+ .cta-list {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-left: 500px;
+ }
+
+ .cta-list ul {
+     list-style: none;
+     display: inline-flex;
+ }
+
+ .cta-list li {
+     padding-right: 25px;
+ }
+
+ .cta-list li a:hover {
+     text-decoration: underline;
+     transition: 0.2s ease-in-out;
+ }
+
+ a {
+     color: white;
+     text-decoration: none;
+ }
+
+ h1 {
+     margin: 10px 10px;
+     padding: 10px 10px;
+ }
+
+ p {
+     color: blueviolet;
+     font-size: 20px;
+ }
+
+ h1 {
+     text-align: center;
+ }
+
+
+ em {
+     color: firebrick;
+     font-size: large;
+ }
+
+ body {
+     padding: 15px 30px;
+     font-family: 'Sometype Mono', monospace;
+ }
+
+ ul {
+     padding-top: 10px;
+     color: gold;
+ }
+
+ #img-sec {
+     justify-content: space-between;
+ }
+
+ .acr {
+     color: darkslategrey;
+     text-decoration: none;
+     cursor: pointer;
+ }
+
+ .acr a:hover {
+     text-shadow: 100px;
+     transition: 0.3s ease-in-out;
+ }
+
+ body {
+     background-image: url(../img/football.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
