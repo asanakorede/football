@@ -17,7 +17,7 @@ Welcome to my project! This page gives an overview and indepth of the beautiful 
 * Click on sports/football.html
 
 >## Known Bugs
-* No Known Bugs
+* Site may not be responsive on other devices
 
 >## License
 * MIT
