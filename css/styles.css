@@ -1,10 +1,18 @@
  @import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 
-
- title {
+ header {
      color: blue;
  }
+
+ .white-background {
+     background-color: white;
+ }
+
+ .black-background {
+     background-color: black;
+ }
+
 
  .cta-list {
      display: flex;
@@ -13,16 +21,16 @@
      padding-left: 500px;
  }
 
- .cta-list ul {
+ .cta-sec ul {
      list-style: none;
      display: inline-flex;
  }
 
- .cta-list li {
+ .cta-sec li {
      padding-right: 25px;
  }
 
- .cta-list li a:hover {
+ .cta-sec li a:hover {
      text-decoration: underline;
      transition: 0.2s ease-in-out;
  }
@@ -77,7 +85,18 @@
      transition: 0.3s ease-in-out;
  }
 
- body {
+ .cta-body {
+     background-image: url(../img/football.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+
+ .prt {
+     box-sizing: border-box;
+     border-radius: 2px solid red;
+ }
+
+ .original-background {
      background-image: url(../img/football.jpg);
      background-size: cover;
      background-repeat: no-repeat;
